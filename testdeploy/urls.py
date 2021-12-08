@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include, re_path
 from rest_framework_swagger.views import get_swagger_view
-from django.conf.urls import url
+# from django.conf.urls import url
 from django.conf import settings
 from django.views.static import serve
 schema_view = get_swagger_view(title='Pastebin API')
